@@ -71,7 +71,7 @@ const Detail: FC<own> = props => {
   };
   return (
     <>
-      <Button href="/api/exportExcel?id=1">导出数据</Button>
+      <Button href="/api/exportExcel?id=2">导出数据</Button>
       <Button onClick={exportData}>导出数据纯前端</Button>
       <Table
         dataSource={lists}

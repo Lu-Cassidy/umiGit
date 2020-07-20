@@ -9,7 +9,7 @@ export function getDatas() {
   return request.get('/api/names');
 }
 export function uploadAvator(formData: FormData) {
-  return request.post('/api/upload', { data: formData, timeout: 500 });
+  return request.post('/api/upload', { data: formData, timeout: 5000 });
 }
 // 导出
 export function exportExcel() {
